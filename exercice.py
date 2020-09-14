@@ -6,23 +6,28 @@ import math
 
 
 def average(a: float, b: float, c: float) -> float:
-    return 0.0
+    moyenne=((a+b+c)/3)
+    return moyenne
 
 
 def to_radians(angle_degs: float, angle_mins: float, angle_secs: float) -> float:
+    
     return 0.0
 
 
 def to_degrees(angle_rads: float) -> tuple:
+    
     return 0.0, 0.0, 0.0
 
 
 def to_celsius(temperature: float) -> float:
+    Tc = (temperature/1.8 - 32)
     return 0.0
 
 
 def to_farenheit(temperature: float) -> float:
-    return 0.0
+    Tf = (temperature*1.8 )+ 32
+    return Tf
 
 
 def main() -> None:
